@@ -36,9 +36,7 @@ public class Passport {
 
     @Override
     public String toString() {
-        return "Паспорт " +
-                "номер: " + passportID +
-                ". Владелец паспорта: " + lastName + name + middleName +
-                ", дата рождения: " + localDate;
+        return "\n Номер паспорта: " + passportID +
+                ". Владелец паспорта: " + lastName + " " + name + " " + middleName + ", дата рождения: " + localDate;
         }
 }
